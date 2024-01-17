@@ -1,0 +1,37 @@
+{
+    "name": "rtffer",
+    "version": "0.0.1",
+    "description": "A library to help writing RTF files",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "readme": "tsc && node ./tests/readme.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlendingJake/RTFFER.git"
+    },
+    "keywords": [
+        "rtf",
+        "writer",
+        "rich",
+        "text",
+        "format"
+    ],
+    "author": "Jacob Morris",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BlendingJake/RTFFER/issues"
+    },
+    "homepage": "https://github.com/BlendingJake/RTFFER#readme",
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
